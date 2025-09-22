@@ -1,0 +1,674 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Satisfy");
+
+body {
+  background-color: #F2FDFF;
+  font-family: "Crimson Text", "Times New Roman", serif;
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+img {
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Satisfy", Helvetica, sans-serif;
+  background-color: #818AA3;
+  color: white;
+  padding: 0.5em 1em;
+  font-size: 2em;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr;
+  align-items: center;
+}
+button {
+  cursor: pointer;
+}
+nav a {
+  color: white;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+p a {
+  color: white;
+}
+p a:hover {
+  background-color: white;
+  color: black;
+}
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+  margin: 0;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #818AA3;
+}
+.header-nav-1 {
+  grid-column: 1/2;
+}
+.logo-box {
+  grid-column: 2/3;
+  justify-self: center;
+  max-width: 100px;
+  max-height: 90px;
+  z-index: 1;
+  border: 5px double;
+}
+.header-nav-2 {
+  grid-column: 3/4;
+}
+a img {
+  max-width: 50px;
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 55px;
+  align-items: center;
+  padding: 0.5em;
+  border-top: 2px solid;
+  background-color: #818AA3;
+  color: white;
+}
+.email {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin-top: -10px;
+}
+.social-links {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-self: end;
+  margin-top: 8px;
+}
+.copyright {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin-bottom: -10px;
+}
+#content {
+  background-color: white;
+  border: 1px solid;
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: .5em;
+  padding: 15px;
+}
+.home-main-img {
+  grid-column: 1/5;
+  grid-row: 1/5;
+  justify-self: center;
+}
+.home-badge-img {
+  grid-column: 3/5;
+  grid-row: 1/3;
+  padding:10px;
+  justify-self: right;
+}
+.badge-img {
+  max-width: 130px;
+}
+.home-main-headline {
+  grid-column: 1/5;
+  grid-row: 5/6;
+  text-align: center;
+}
+.home-img-1 {
+  grid-column: 1/3;
+  grid-row: 6/9;
+}
+.home-headline-1 {
+  grid-column: 3/5;
+  grid-row: 6/7;
+  align-self: start;
+  margin-top: 0px;
+  text-align: center;
+}
+.home-paragraph-1 {
+  grid-column: 3/5;
+  grid-row: 7/9;
+  margin-top: -40px;
+}
+.teddybear-goldendoodles {
+  grid-column: 1/5;
+  grid-row: 9/13;
+}
+.home-img-3 {
+  grid-column: 1/5;
+  grid-row: 23/25;
+  justify-self: center;
+  margin-bottom: -30px;
+}
+.home-paragraph-3 {
+  grid-column: 1/5;
+  grid-row: 25/26;
+  text-align: center;
+}
+.home-img-2 {
+  float: right;
+  margin-top: 34px;
+  margin-left: 20px;
+  max-width: 455px;
+}
+.home-headline-2 {
+  margin-right: 475px;
+  text-align: center;
+}
+.home-paragraph-2 {
+  margin-top: -22px;
+}
+.newfypoos {
+  grid-column: 1/5;
+  grid-row: 13/17;
+  margin-top: -20px;
+}
+.home-img-4 {
+  float: left;
+  margin-top: 34px;
+  margin-right: 20px;
+  max-width: 455px;
+}
+.home-headline-4 {
+  margin-left: 475px;
+  text-align: center;
+}
+.home-paragraph-4 {
+  margin-top: -22px;
+}
+.bernedoodles {
+  grid-column: 1/5;
+  grid-row: 18/22;
+  margin-top: -30px;
+}
+.home-img-5 {
+  float: right;
+  margin-top: 34px;
+  margin-left: 20px;
+  max-width: 455px;
+}
+.home-headline-5 {
+  margin-right: 475px;
+  text-align: center;
+}
+.home-paragraph-5 {
+  margin-top: -22px;
+}
+/*The following code is for the FAQ page*/
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 1em;
+  padding: 15px;
+}
+.faq-main-headline {
+  grid-column: 1/3;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+.faq-img {
+  grid-column: 1/3;
+}
+.line {
+  grid-column: 1/3;
+  background-color: black;
+  height: 1px;
+}
+.question {
+  grid-column: 1/2;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.answer {
+  grid-column: 2/3;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*The following code is for the Contact Us page*/
+/*input,
+textarea {
+  border: 1px solid black;
+  color: black;
+}
+input:focus,
+textarea:focus {
+  border-color: #000;
+}*/
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+  padding: 15px;
+}
+.contact-main-headline {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.contact-img {
+  justify-self: center;
+}
+.contact-paragraph {
+  text-align: center;
+  /*The following code is currently being used in place of the form. When a working form is created, this should be removed.*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*margin-bottom: -5px;*/
+}
+/* .contact-form {
+  justify-self: center;
+  width: 100%;
+  max-width: 960px;
+}
+.form-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  padding: 15px;
+}
+.email {
+  grid-column: 1/3;
+}
+.first-name {
+  grid-column: 1/2;
+}
+.last-name {
+  grid-column: 2/3;
+}
+.message {
+  grid-column: 1/3;
+}
+.button {
+  grid-column: 1/3;
+  justify-self: center;
+}
+.asterik {
+  font-size: 14px;
+}
+#mail {
+  width: 100%;
+  max-width: 960px;
+  height: 30px;
+}
+#first-name {
+  width: 100%;
+  max-width: 500px;
+  height: 30px;
+}
+#last-name {
+  width: 100%;
+  max-width: 500px;
+  height: 30px;
+}
+#msg {
+  width: 100%;
+  max-width: 960px;
+  height: 200px;
+}
+#button {
+  height: 45px;
+  width: 140px;
+  font-size: 20px;
+} */
+#feedback {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 30px;
+  margin-top: -20px;
+  padding: 0.5em;
+  display: none;
+}
+.moveDown {
+  margin-top: 3em;
+}
+/*The following code is for the About Parents page*/
+.parents-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  padding: 15px;
+}
+.parents-main-headline {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  text-align: center;
+  margin-top: 0px;
+}
+.parents-main-img {
+  grid-column: 1/3;
+  grid-row: 2/5;
+  justify-self: center;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.parents-img-1 {
+  grid-column: 1/2;
+  grid-row: 5/8;
+  text-align: center;
+}
+.parents-headline-1 {
+  grid-column: 2/3;
+  grid-row: 5/6;
+  text-align: center;
+  margin-top: 0px;
+  align-self: start;
+  font-size: 35px;
+}
+.parents-paragraph-1 {
+  grid-column: 2/3;
+  grid-row: 6/8;
+  margin-top: -50px;
+  font-size: 18px;
+}
+.hip-dysplasia-chart {
+  font-size: 10px;
+}
+.hip-dysplasia-chart a {
+  color: Black;
+}
+.hip-dysplasia-chart a:hover {
+  background-color: black;
+  color: white;
+}
+.dna-results {
+  color: Black;
+}
+.dna-results:hover {
+  background-color: black;
+  color: white;
+}
+.parents-img-2 {
+  grid-column: 2/3;
+  grid-row: 8/11;
+  text-align: center;
+}
+.parents-headline-2 {
+  grid-column: 1/2;
+  grid-row: 8/9;
+  text-align: center;
+  margin-top: 0px;
+  align-self: start;
+  font-size: 35px;
+}
+.parents-paragraph-2 {
+  grid-column: 1/2;
+  grid-row: 9/11;
+  margin-top: -50px;
+  font-size: 18px;
+}
+.parents-img-3 {
+  grid-column: 1/2;
+  grid-row: 11/14;
+  text-align: center;
+}
+.parents-headline-3 {
+  grid-column: 2/3;
+  grid-row: 11/12;
+  text-align: center;
+  margin-top: 0px;
+  align-self: start;
+  font-size: 35px;
+}
+.parents-paragraph-3 {
+  grid-column: 2/3;
+  grid-row: 12/14;
+  margin-top: -45px;
+  font-size: 18px;
+}
+.parents-img-4 {
+  grid-column: 2/3;
+  grid-row: 14/17;
+  text-align: center;
+}
+.parents-headline-4 {
+  grid-column: 1/2;
+  grid-row: 14/15;
+  text-align: center;
+  margin-top: 0px;
+  align-self: start;
+  font-size: 35px;
+}
+.parents-paragraph-4 {
+  grid-column: 1/2;
+  grid-row: 15/17;
+  margin-top: -50px;
+  font-size: 18px;
+}
+/*The following code is for the Available Litters page*/
+.litters-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  padding: 15px;
+}
+.litters-main-headline {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  text-align: center;
+  margin-top: 0px;
+}
+.litters-main-img {
+  grid-column: 1/4;
+  grid-row: 2/5;
+  justify-self: center;
+  margin-top: -20px;
+}
+.litters-headline-1 {
+  grid-column: 1/4;
+  grid-row: 5/6;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-family: "Crimson Text", "Times New Roman", serif;
+  font-size: 1.7em;
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: -30px;
+}
+.litters-subheadline-1 {
+  grid-column: 1/4;
+  grid-row: 6/7;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-family: "Crimson Text", "Times New Roman", serif;
+  font-size: 1.3em;
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: -40px;
+}
+.litters-paragraph-1 {
+  grid-column: 1/4;
+  grid-row: 7/8;
+  text-align: center;
+  margin-bottom: -10px;
+}
+.litters-img-1 {
+  grid-column: 1/4;
+  grid-row: 8/11;
+}
+.puppy-img-1 {
+  grid-column: 1/2;
+  grid-row: 11/13;
+}
+.puppy-paragraph-1 {
+  grid-column: 1/2;
+  grid-row: 13/14;
+  text-align: center;
+  margin-top: -20px;
+}
+.puppy-img-2 {
+  grid-column: 2/3;
+  grid-row: 11/13;
+}
+.puppy-paragraph-2 {
+  grid-column: 2/3;
+  grid-row: 13/14;
+  text-align: center;
+  margin-top: -20px;
+}
+.puppy-img-3 {
+  grid-column: 3/4;
+  grid-row: 11/13;
+}
+.puppy-paragraph-3 {
+  grid-column: 3/4;
+  grid-row: 13/14;
+  text-align: center;
+  margin-top: -20px;
+}
+.puppy-img-4 {
+  grid-column: 1/2;
+  grid-row: 14/16;
+}
+.puppy-paragraph-4 {
+  grid-column: 1/2;
+  grid-row: 16/17;
+  text-align: center;
+  margin-top: -20px;
+}
+.puppy-img-5 {
+  grid-column: 2/3;
+  grid-row: 14/16;
+}
+.puppy-paragraph-5 {
+  grid-column: 2/3;
+  grid-row: 16/17;
+  text-align: center;
+  margin-top: -20px;
+}
+.puppy-img-6 {
+  grid-column: 3/4;
+  grid-row: 14/16;
+}
+.puppy-paragraph-6 {
+  grid-column: 3/4;
+  grid-row: 16/17;
+  text-align: center;
+  margin-top: -20px;
+}
+.puppy-img-7 {
+  grid-column: 1/2;
+  grid-row: 17/19;
+}
+.puppy-paragraph-7 {
+  grid-column: 1/2;
+  grid-row: 19/20;
+  text-align: center;
+  margin-top: -20px;
+}
+.puppy-img-8 {
+  grid-column: 2/3;
+  grid-row: 17/19;
+}
+.puppy-paragraph-8 {
+  grid-column: 2/3;
+  grid-row: 19/20;
+  text-align: center;
+  margin-top: -20px;
+}
+
+@media screen and (max-width: 750px) {
+  .home-grid,
+  .parents-grid,
+  footer {
+    display: block;
+  }
+  nav ul {
+    background-color: white;
+  }
+  nav a {
+    color: black;
+  }
+  nav a:hover {
+    color: white;
+    background-color: #818AA3;
+  }
+  .home-img-2 {
+    float: none;
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  .home-headline-2 {
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  .home-img-4 {
+    float: none;
+    margin-right: 0px;
+    max-width: 100%;
+    margin-top: 60px;
+  }
+  .home-headline-4 {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .home-img-5 {
+    float: none;
+    margin-left: 0px;
+    max-width: 100%;
+    margin-top: 65px;
+  }
+  .home-headline-5 {
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  .home-paragraph-1 {
+    margin-top: -20px;
+  }
+  .home-img-3 {
+    margin-bottom: -15px;
+    margin-top: 35px;
+  }
+  .parents-headline-1 {
+    font-size: 40px;
+  }
+  .parents-paragraph-1 {
+    margin-top: -20px;
+    font-size: 20px;
+  }
+  .parents-headline-2 {
+    font-size: 40px;
+  }
+  .parents-paragraph-2 {
+    margin-top: -20px;
+    font-size: 20px;
+  }
+  .parents-headline-3 {
+    font-size: 40px;
+  }
+  .parents-paragraph-3 {
+    margin-top: -20px;
+    font-size: 20px;
+  }
+  .parents-headline-4 {
+    font-size: 40px;
+  }
+  .parents-paragraph-4 {
+    margin-top: -20px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  header ul {
+    font-size: 12px;
+  }
+}
