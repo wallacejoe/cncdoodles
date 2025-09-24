@@ -121,17 +121,57 @@ footer {
   color: white;
 }
 .carousel-container {
+    display: flex;
     position: relative;
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+    margin-bottom: 1rem;
     overflow: hidden;
+    background-color: #818AA3;
+    border-radius: 5px;
 }
 .carousel-slide {
     display: none; /* Hidden by default, displayed based on currentIndex */
-    width: 100%;
-    height: 400px; /* Adjust height as needed */
+    width: auto;
+    max-height: 400px; /* Adjust height as needed */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.carousel-name {
+  display: none;
+  position: absolute;
+  left: 25%;
+  top: 1em;
+  padding: 2px;
+  color: #ad06aa;
+  background-color: #cdced2;
+  border-radius: 5px;
+}
+.prev {
+  position: absolute;
+  left: 1em;
+  top: 50%;
+  background-color: #afb6cc;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+.prev:hover {
+  background-color: #c9cdd8;
+}
+.next {
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  background-color: #afb6cc;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+.next:hover {
+  background-color: #c9cdd8;
 }
 .email {
   grid-column: 1/2;
