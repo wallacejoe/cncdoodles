@@ -127,26 +127,59 @@ footer {
     justify-content: center;
     margin-bottom: 1rem;
     overflow: hidden;
-    background-color: #818AA3;
+    background-color: #102E4A; /*102E4A, 5B3758, 423E3B, 1e2c55, 214F4B*/
     border-radius: 5px;
 }
 .carousel-slide {
     display: none; /* Hidden by default, displayed based on currentIndex */
     width: auto;
     max-height: 400px; /* Adjust height as needed */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 .carousel-name {
   display: none;
   position: absolute;
-  left: 25%;
+  left: 15%;
   top: 1em;
   padding: 2px;
-  color: #ad06aa;
-  background-color: #cdced2;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
+}
+.carousel-price {
+  display: none;
+  position: absolute;
+  left: 15%;
+  top: 3em;
+  padding: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.carousel-gender {
+  display: none;
+  position: absolute;
+  left: 15%;
+  top: 5em;
+  padding: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.carousel-order {
+  display: none;
+  position: absolute;
+  text-decoration: none;
+  left: 50%;
+  bottom: 2em;
+  transform: translate(-50%, 0);
+  padding: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  color: black;
+  border-radius: 5px;
+}
+.carousel-order:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .prev {
   position: absolute;
@@ -218,12 +251,14 @@ footer {
   width: 50%;
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   color: black;
   padding: 5px 0;
   border-radius: 10px;
 }
 .call-to-action a:hover {
   background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: none;
 }
 .home-grid {
   display: grid;
