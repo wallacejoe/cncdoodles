@@ -4,6 +4,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+  content="If you're looking for doodles in the Arizona area, feel free
+  to send us a message! We can add you to our waitlist, giving you priority
+  pick for the upcoming litter.">
+  <meta name="keywords"
+  content="doodle waitlist, doodles for sale, Arizona doodle breeders">
   <title>Cookies and Cream Doodles | Contact Us</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/favicon.ico" href="Website Pictures/favicon.ico">
@@ -12,23 +18,12 @@
 <body>
   <div id="content">
     <header>
-      <nav class="header-nav-1">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </nav>
-      <div class="logo-box">
-        <img src="Website Pictures\Logo Stuff\Cookies and Cream Doodles Logo.jpg"
-          alt="Arizona Doodles Bernedoodles" />
-      </div>
-      <nav class="header-nav-2">
-        <ul>
-          <li><a href="parents.html">About Parents</a></li>
-          <li><a href="litters.html">Available Litters</a></li>
-        </ul>
-      </nav>
+      <div class="header-bar"></div>
+        <div class="logo-box">
+          <img src="Website Pictures\Logo Stuff\Cookies and Cream Doodles Logo.jpg"
+            alt="Arizona Doodles Bernedoodles" />
+        </div>
+        <nav id="site-nav">Menu <span class="down-icon">▽</span></nav>
     </header>
 
     <main>
@@ -42,7 +37,7 @@
         <!-- The following code is currently being used in place of the form. When a working form is created, this should be removed. -->
         <div class="contact-paragraph">Feel free to reach out through email, phone call, or text.
           <br>We look forward to hearing from you!<br>
-          <br>Email: cookiesandcreamdoodles@gmail.com<br>Phone: (480)-549-9065
+          <br><a class="contact-email" href="mailto:cookiesandcreamdoodles@gmail.com">cookiesandcreamdoodles@gmail.com</a><br>Phone: (480)-549-9065
         </div>
         <!-- <p class="contact-paragraph">
             Enter your information below and compose your message. Feel free to
@@ -105,7 +100,7 @@
     </main>
 
     <footer>
-      <p class="email">Email: cookiesandcreamdoodles@gmail.com</p>
+      <a class="email" href="mailto:cookiesandcreamdoodles@gmail.com">Email: cookiesandcreamdoodles@gmail.com</a>
       <div class="social-links">
         <a href="https://www.facebook.com/Cookies-Cream-Doodles-112589338083752" target="_blank"><img
             src="Website Pictures\FacebookIcon.png" alt="Facebook Icon" /></a>
@@ -115,11 +110,12 @@
             alt="Instagram Icon" /></a>
       </div>
       <p class="copyright">
-        &copy; 2022 Cookies and Cream Doodles
+        &copy; 2022 - <span id="currentyear"></span> Cookies and Cream Doodles
       </p>
     </footer>
   </div>
-  <script src="script.js"></script>
+  <script src="scripts/script.js"></script>
 </body>
-
+<script src="scripts/navigation.js"></script>
+<script src="scripts/getDate.js"></script>
 </html>

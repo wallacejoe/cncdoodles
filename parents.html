@@ -4,6 +4,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+  content="A description of each of our beautiful pure breeds. Health testing,
+  size, description, and other relevant information.">
+  <meta name="keywords"
+  content="Golden Retriever, Berneses Mountain Dog, poodle, Newfoundland">
   <title>Cookies and Cream Doodles | About Parents</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/favicon.ico" href="Website Pictures/favicon.ico">
@@ -12,23 +17,12 @@
 <body>
   <div id="content">
     <header>
-      <nav class="header-nav-1">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </nav>
-      <div class="logo-box">
-        <img src="Website Pictures\Logo Stuff\Cookies and Cream Doodles Logo.jpg"
-          alt="Arizona Doodles Bernedoodles" />
-      </div>
-      <nav class="header-nav-2">
-        <ul>
-          <li><a href="parents.html">About Parents</a></li>
-          <li><a href="litters.html">Available Litters</a></li>
-        </ul>
-      </nav>
+      <div class="header-bar"></div>
+        <div class="logo-box">
+          <img src="Website Pictures\Logo Stuff\Cookies and Cream Doodles Logo.jpg"
+            alt="Arizona Doodles Bernedoodles" />
+        </div>
+        <nav id="site-nav">Menu <span class="down-icon">▽</span></nav>
     </header>
 
     <main>
@@ -121,7 +115,7 @@
     </main>
 
     <footer>
-      <p class="email">Email: cookiesandcreamdoodles@gmail.com</p>
+      <a class="email" href="mailto:cookiesandcreamdoodles@gmail.com">Email: cookiesandcreamdoodles@gmail.com</a>
       <div class="social-links">
         <a href="https://www.facebook.com/Cookies-Cream-Doodles-112589338083752" target="_blank"><img
             src="Website Pictures\FacebookIcon.png" alt="Facebook Icon" /></a>
@@ -131,10 +125,11 @@
             src="Website Pictures\InstagramIcon.png" alt="Instagram Icon" /></a>
       </div>
       <p class="copyright">
-        &copy; 2022 Cookies and Cream Doodles
+        &copy; 2022 - <span id="currentyear"></span> Cookies and Cream Doodles
       </p>
     </footer>
   </div>
 </body>
-
+<script src="scripts/navigation.js"></script>
+<script src="scripts/getDate.js"></script>
 </html>
