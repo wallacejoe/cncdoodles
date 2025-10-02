@@ -208,7 +208,12 @@ footer {
 .email {
   grid-column: 1/2;
   grid-row: 1/2;
-  margin-top: -10px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: darkmagenta;
+}
+.email:hover {
+  color: white;
 }
 .social-links {
   grid-column: 2/3;
@@ -427,6 +432,13 @@ footer {
   padding-bottom: 20px;
   /*margin-bottom: -5px;*/
 }
+.contact-email {
+  text-decoration: none;
+  color: darkmagenta;
+}
+.contact-email:hover {
+  color: black;
+}
 #feedback {
   background-color: black;
   color: white;
@@ -608,6 +620,10 @@ footer {
 .puppy-img-1 {
   grid-column: 1/2;
   grid-row: 11/13;
+}
+.available {
+  text-decoration: none;
+  color: #008631;
 }
 .puppy-paragraph-1 {
   grid-column: 1/2;
