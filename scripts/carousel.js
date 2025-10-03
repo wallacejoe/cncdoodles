@@ -1,14 +1,14 @@
 // Items to populate the carousel with
 // This list will be updated with new litter information
 const items = [
-    { name: 'Obsidian', price: '$2700', gender: 'Male', link: 'Website Pictures/Nali Litter 2/Obsidian (3 Weeks).jpg'},
-    { name: 'Onyx', price: '$2700', gender: 'Male', link: 'Website Pictures/Nali Litter 2/Onyx (3 Weeks).jpg'},
-    { name: 'Sapphire', price: '$2700', gender: 'Female', link: 'Website Pictures/Nali Litter 2/Sapphire (3 Weeks).jpg'},
-    { name: 'Diamond', price: '$2700', gender: 'Female', link: 'Website Pictures/Nali Litter 2/Diamond (3 Weeks).jpg'},
-    { name: 'Amethyst', price: '$2700', gender: 'Female', link: 'Website Pictures/Nali Litter 2/Amethyst (3 Weeks).jpg'},
-    { name: 'Adamite', price: '$3000', gender: 'Male', link: 'Website Pictures/Nali Litter 2/Adamite (3 Weeks).jpg'},
-    { name: 'Jasper', price: '$3000', gender: 'Male', link: 'Website Pictures/Nali Litter 2/Jasper (3 Weeks).jpg'},
-    { name: 'Opal', price: '$3000', gender: 'Female', link: 'Website Pictures/Nali Litter 2/Opal (3 Weeks).jpg'},
+    { name: 'Obsidian', price: '$3000', gender: 'Male', link: 'Website Pictures/Nali Litter 2/Obsidian (3 Weeks).jpg'},
+    { name: 'Onyx', price: '$2500', gender: 'Male', link: 'Website Pictures/Nali Litter 2/Onyx (3 Weeks).jpg'},
+    { name: 'Sapphire', price: '$3200', gender: 'Female', link: 'Website Pictures/Nali Litter 2/Sapphire (3 Weeks).jpg'},
+    { name: 'Diamond', price: '$3000', gender: 'Female', link: 'Website Pictures/Nali Litter 2/Diamond (3 Weeks).jpg'},
+    { name: 'Amethyst', price: '$3500', gender: 'Female', link: 'Website Pictures/Nali Litter 2/Amethyst (3 Weeks).jpg'},
+    { name: 'Adamite', price: '$3500', gender: 'Male', link: 'Website Pictures/Nali Litter 2/Adamite (3 Weeks).jpg'},
+    { name: 'Jasper', price: '$3500', gender: 'Male', link: 'Website Pictures/Nali Litter 2/Jasper (3 Weeks).jpg'},
+    { name: 'Opal', price: '$3500', gender: 'Female', link: 'Website Pictures/Nali Litter 2/Opal (3 Weeks).jpg'},
 ];
 
 // Create the carousel items and html
